@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+	<style type="text/css">
+		
+		body{
+			background-color: #FCDE67;
+			font-family: sans-serif;
+			color: #030e12;
+		}
+
+		table{
+			border-spacing: 0 ;
+			margin-left: -10px;
+			margin-right: -10px;
+			margin-top: -10px;
+		}
+
+		b{
+			letter-spacing: 15px;
+			font-size: 200%;
+
+		}
+		button {
+			background-color: transparent;
+			border: none;
+			color: #030e12;
+			padding: 10px 20px;
+			text-align: center;
+			margin: 4px 4px;
+			font-weight: bold;
+			font-family: sans-serif;
+		}
+		input[type=text], select {
+			width: 100%;
+			padding: 12px 2px;
+			margin: 8px 20px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=radio]{
+			margin: 0 20px;
+			letter-spacing: 2px;
+		}
+		input[type=number]{
+			width: 100%;
+			margin: 0 20px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		textarea{
+			width: 100%;
+			margin: 0 20px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		form{
+			background-color: #5BCCF6;
+			border-radius: 3%;
+			padding: 30px 10px;
+			margin-left: 50px;
+			margin-right: 800px;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<tr bgcolor="#5BCCF6">
+			<td width="30">
+				<img src="LOG0_000000.png" width="120" height="100">
+			</td>
+			<td width="1250">
+				<b>ALTERVIII
+				<p style="font-size: 30%; letter-spacing: 10px;">IM TOO LIT, LIKE, OH MY GOD.</p>
+				</b>
+			</td>
+		</tr>
+		<tr>
+			<td height="20" style="text-align: center;">
+				<button onclick="document.location='layout.html'">HOME</button>
+			</td>
+			<td>
+				<button onclick="document.location='form.html'">FORM</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" height="420" align="center">
+				<form >
+					<table>
+						<tr>
+							<td>NIK</td>
+							<td><input type="number" size="30"></td>
+						</tr>
+						<tr>
+							<td>Nama</td>
+							<td><input type="text" size="30"></td>
+						</tr>
+						<tr>
+							<td>Jenis Kelamin</td>
+							<td>
+							<input type="radio" value="L">Laki-Laki <br>
+							<input type="radio" value="P">Perempuan <br>
+							</td>
+						</tr>
+						<tr>
+							<td>Alamat</td>
+							<td><textarea rows="6" cols="32"></textarea></td>
+						</tr>
+						<tr>
+							<td>Agama</td>
+							<td>
+								<select>
+								<option value="Islam" selected="">Islam</option>
+								<option value="Kristen">Kristen</option>
+								<option value="Katholik">Katholik</option>
+								<option value="Hindu" >Hindu</option>
+								<option value="Buddha" >Buddha</option>
+								<option value="Konghucu" >Konghucu</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Pekerjaan</td>
+							<td><input type="text" size="30"></td>
+						</tr>
+						<tr>
+							<td>Golongan Darah</td>
+							<td>
+							<input type="radio" value="A">A 
+							<input type="radio" value="B">B 
+							<input type="radio" value="AB">AB
+							<input type="radio" value="O">O 
+							</td>
+						</tr>
+				</table>
+			</form>
+			</td>
+		</tr>
+		<tr style="text-align: center;">
+			<td colspan="3">
+				<b style="font-size: 50%; letter-spacing: 1px;">VIII.CORP</b>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
